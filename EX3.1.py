@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+c=int(input())
+x=(-b+(((b*b)-4*a*c)**0.5))/(2*a)
+y=(-b-(((b*b)-4*a*c)**0.5))/(2*a)
+print("The root of the quadratic equvation is ",x ,"and",y)
